@@ -1,1 +1,2 @@
-//your JS code here. If required.
+let id = document.querySelector('#colorSelect');
+console.log(id.value)
