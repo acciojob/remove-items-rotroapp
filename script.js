@@ -1,4 +1,4 @@
-let id = document.querySelector('#colorSelect');
+let id = document.querySelector('#colorSelect').value;
 console.log(id.value);
 let val = document.querySelector('display');
 
