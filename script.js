@@ -1,7 +1,7 @@
-let id = document.querySelector('#colorSelect').value;
+let id = document.querySelector('#colorSelect');
 console.log(id.value);
 let val = document.querySelector('display');
 
-id.eventListner( 'click', () => {
+id.addeventListner( 'click', () => {
 	val = id;
 })
