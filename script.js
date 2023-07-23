@@ -11,11 +11,6 @@ let dis = document.querySelector(".display");
 // }
 
 id2.addEventListener( "click",  ()=> {
-	      const selectedIndex = id.selectedIndex;
-        dis.innerHTML = selectedIndex; 
-      // Check if an option is selected
-      if (selectedIndex !== -1) {
-        // Remove the selected option from the dropdown list
-        id.removeChild(id.options[selectedIndex]);
-      }
+	const selected = id.selectIndex;
+	dis.innerHTML = selected;
     }); 
