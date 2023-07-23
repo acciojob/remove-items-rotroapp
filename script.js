@@ -11,6 +11,9 @@ let dis = document.querySelector(".display");
 // }
 
 id2.addEventListener( "click",  ()=> {
-	const selected = id.selectIndex;
-	dis.innerHTML = selected;
+	const selected = id.selectedIndex;
+	if(selected != -1)
+	{
+		id.removeChild(id.selected);
+	}
     }); 
